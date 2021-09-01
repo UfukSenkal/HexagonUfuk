@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int _bombTime = 7;
     private int _bombTimeMax = 10;
     private int _bombTimeMin = 5;
+    private int _bombScore = 1000;
 
     [Header("Color")]
     [SerializeField] private int _colorCount = 5;
@@ -89,4 +90,5 @@ public class GameManager : MonoBehaviour
     public float GridXOffset { get => gridXOffset; set => gridXOffset = value; }
     public float CamX { get => (GridWidth / 4f);}
     public float CamY { get => ((GridHeight * GridYOffset) + 1f) / 2f;}
+    public int BombScore { get => _bombScore; set => _bombScore = value; }
 }

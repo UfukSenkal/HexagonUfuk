@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
 
 
     private int bombTime = 7;
+    private int bombScore = 1000;
     public bool isMapFull = false;
     public bool isMatch = false;
     public bool canRotate = true;
@@ -59,6 +60,7 @@ public class GameController : MonoBehaviour
         gridWidth = gameManager.GridWidth;
         gridHeight = gameManager.GridHeight;
         bombTime = gameManager.BombTime;
+        bombScore = gameManager.BombScore;
         colorCount = gameManager.ColorCount;
         gridYOffset = gameManager.GridYOffset;
         gridXOffset = gameManager.GridXOffset;
@@ -209,8 +211,10 @@ public class GameController : MonoBehaviour
 
         go.GetComponent<Hexagon.HexagonController>().SetColor(colorList[Random.Range(0, colorList.Count)]);
 
-        if (scoreController.Score % 1000 == 0 && bombHexagon == null)
+
+        if (scoreController.Score >= bombScore && bombHexagon == null)
         {
+            bombScore += gameManager.BombScore; 
             bombTime = gameManager.BombTime;
             go.GetComponent<Hexagon.HexagonController>().SetBombText(bombTime.ToString());
             bombHexagon = go;

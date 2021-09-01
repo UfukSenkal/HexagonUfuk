@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 560
     height: 673
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -98,10 +98,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 16006, y: 14042}
+  m_MinSize: {x: 879, y: 492}
+  m_MaxSize: {x: 16004, y: 14042}
   vertical: 0
-  controlID: 101
+  controlID: 111
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,10 +244,10 @@ MonoBehaviour:
     y: 0
     width: 1368
     height: 947
-  m_MinSize: {x: 605, y: 492}
-  m_MaxSize: {x: 12005, y: 14042}
+  m_MinSize: {x: 603, y: 492}
+  m_MaxSize: {x: 12003, y: 14042}
   vertical: 1
-  controlID: 30642
+  controlID: 84
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,10 +270,10 @@ MonoBehaviour:
     y: 0
     width: 1368
     height: 673
-  m_MinSize: {x: 605, y: 221}
-  m_MaxSize: {x: 12005, y: 4021}
+  m_MinSize: {x: 603, y: 221}
+  m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 30643
+  controlID: 85
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -490,20 +490,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts/Game
   m_ViewMode: 1
   m_StartGridSize: 62
   m_LastFolders:
-  - Assets
+  - Assets/Scripts/Game
   m_LastFoldersGridSize: 62
   m_LastProjectPath: C:\Users\Alucard\Desktop\HexagonUfuk
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 043b0000
-    m_LastClickedID: 15108
-    m_ExpandedIDs: 00000000043b0000143b0000163b000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 263b0000
+    m_LastClickedID: 15142
+    m_ExpandedIDs: 00000000043b00000c3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -656,7 +656,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6e60f8ff8260f8ff3c61f8ff5861f8ff3662f8ff4a62f8ff0463f8ff2063f8ff78eef8ff8ceef8ff3eeff8ff5aeff8ff9aeff8ffb6eff8ffd40cf9fffa0df9ff002bf9ff6c2bf9fffc3bf9ffb03cf9ffc43cf9fff43df9ff823ef9fffe3ef9ff9055f9ff4656f9ffc456f9ff9269f9ff7c6af9ff906af9ff4a6bf9ff666bf9ffbc92f9ffd092f9ff8a93f9ffa693f9ffd2c3f9ffe8cff9ff78dcf9ffe2e8f9ff8cfbf9ff060dfaffc40dfaffa60efaffee1bfaffa21cfaffcc1ffaff862efaff643efaff3e4bfafff04bfaffb05cfaff007afaffb47afaff4c7bfaff9c87faffb087faff6e88faff8e88faff84a3faff9aa3faffd0a3faffb0a4faff8ea7faffb4a7faff9aaefaff7cb5faff9abcfaff70bdfaff0ce3faffbce3faff7cecfaffd60bfbff8e15fbff2e1dfbffd424fbff9237fbffb48efbffdecefbff3afcfbff0019fcff8a39fcffcc69fcff4084fcfff88bfcff1294fcff4eabfcff2cfafcffec01fdff4c78fdff6078fdffd079fdff3c8afdff1e8ffdff748ffdff1c87feff9a96feff94b6feffa8b6feff5eb7feff7ab7feffa2b8feffb6b8feff6cb9feff88b9feff9ccafeff00defeff14defeff1cdefeff3cdefeffb2defeffc6defeff7cdffeff98dffeff7801ffff8c01ffff4602ffff6602ffff8603ffff9a03ffff5004ffff6c04ffff9c48ffffb048ffff6649ffff8249ffff324dffff2692ffff3cc7ffff92d3ffff66fbfffff4ffffff628d00006c8d0000848d0000c68d0000d68d0000e88d0000ec8d0000108e0000248e00004a8e00007c8e000032ae00009c1a0100701e0100d81e01003c1f01009c1f01006221010070250100c030010068340100
+      m_ExpandedIDs: aedbffffc2dbffff80dcffffa0dcffff66fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
